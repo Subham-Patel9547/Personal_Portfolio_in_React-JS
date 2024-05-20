@@ -1,0 +1,12 @@
+.Logo{
+    font-size: 3rem;
+    color: red;
+}
+
+
+@media screen and (max-width:767px){
+    .Logo{
+        margin-left: -90%;
+        font-size: 5rem;
+    }
+}

@@ -1,0 +1,21 @@
+@media only screen and (width <= 600px) {
+    
+    nav{
+        display: none;
+    }
+
+    .Mobile nav,p{
+        transition: 0.5s;
+        display: block;
+    }
+}
+
+@media only screen and (width > 600px) {
+    
+
+    .Mobile,p{
+        display: none;
+    }
+
+}
+
